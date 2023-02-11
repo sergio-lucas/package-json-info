@@ -1,0 +1,25 @@
+{
+  "name": "package-json-info",
+  "version": "0.0.1",
+  "description": "Prints content of the package.json file",
+  "strapi": {
+    "name": "package-json-info",
+    "description": "Prints content of the package.json file",
+    "kind": "plugin",
+    "displayName": "Package Json Info"
+  },
+  "dependencies": {},
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "maintainers": [
+    {
+      "name": "A Strapi developer"
+    }
+  ],
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
