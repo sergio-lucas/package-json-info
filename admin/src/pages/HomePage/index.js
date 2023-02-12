@@ -15,7 +15,7 @@ const HomePage = () => {
 
   useEffect(() => {
     debugger
-    get("/package-json-info").then(({data}) => {
+    get("/strapi-package-json-info").then(({data}) => {
       const objectData = Object.entries(data).reduce((acc, cur) => {
         return Object.assign({}, acc, {[cur[0]]: cur[1]})
       }, {});
