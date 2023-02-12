@@ -1,6 +1,6 @@
 {
   "name": "strapi-package-json-info",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Prints content of the package.json file",
   "strapi": {
     "name": "strapi-package-json-info",
@@ -21,6 +21,9 @@
     "node": ">=14.19.1 <=18.x.x",
     "npm": ">=6.0.0"
   },
+  "bugs": "https://github.com/sergio-lucas/strapi-package-json-info/issues",
+  "homepage": "https://github.com/sergio-lucas/strapi-package-json-info#readme",
+  "repository": "https://github.com/sergio-lucas/strapi-package-json-info",
   "keywords": [
     "strapi",
     "plugin",
