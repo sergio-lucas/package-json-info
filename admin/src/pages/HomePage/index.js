@@ -14,18 +14,12 @@ const HomePage = () => {
   const [items, setItems] = useState({});
 
   useEffect(() => {
-    debugger
-    get("/strapi-package-json-info").then(({data}) => {
-      const objectData = Object.entries(data).reduce((acc, cur) => {
-        return Object.assign({}, acc, {[cur[0]]: cur[1]})
-      }, {});
-      setItems(objectData);
-    })
+    get("/strapi-package-json-info").then(({data}) => setItems(data))
   }, [])
   return (
     <ContentLayout>
       <Box background="neutral100">
-      <BaseHeaderLayout title="Package JSON Info" as="h2" />
+        <BaseHeaderLayout title="Package JSON Info" as="h2" />
       </Box>
       <List items={items} />
     </ContentLayout>

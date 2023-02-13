@@ -5,6 +5,6 @@ module.exports = ({ strapi }) => ({
     ctx.body = strapi
       .plugin('strapi-package-json-info')
       .service('myService')
-      .getWelcomeMessage();
+      .getPackageJSON();
   },
 });

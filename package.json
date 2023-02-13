@@ -1,6 +1,6 @@
 {
   "name": "strapi-package-json-info",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Prints content of the package.json file",
   "strapi": {
     "name": "strapi-package-json-info",

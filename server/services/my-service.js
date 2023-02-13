@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = ({ strapi }) => ({
-  getWelcomeMessage() {
+  getPackageJSON() {
     let {dependencies, ...rest} = require(`${strapi.dirs.dist.root}/package.json`);
     return rest;
   },
